@@ -1,0 +1,7 @@
+ GET|HEAD        api/clientes ............................................................................ clientes.index › ClienteController@index
+ POST            api/clientes ............................................................................ clientes.store › ClienteController@store
+		 	(nombres,apellidos)
+ GET|HEAD        api/clientes/{cliente} .................................................................... clientes.show › ClienteController@show
+ PUT|PATCH       api/clientes/{cliente} ................................................................ clientes.update › ClienteController@update
+		 	(nombres,apellidos)
+ DELETE          api/clientes/{cliente} .............................................................. clientes.destroy › ClienteController@destroy
